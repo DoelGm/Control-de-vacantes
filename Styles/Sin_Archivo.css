@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 1%;
+}
+
+.logo{
+    width: 100%;
+}
+
+.BTN_Regresar{
+    width: 50%;
+    height: auto;
+    background-color:goldenrod;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    transition: ease-in-out 500ms;
+}
+
+.BTN_Regresar:hover{
+    transform: rotate(180);
+    background: rgb(255, 188, 20);
+}

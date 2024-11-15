@@ -1,0 +1,80 @@
+/*! Estilo de login.php*/
+#logo{
+    width: 100%;
+}
+
+.login{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.conteiner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    transform:  translate(-50%, -50%);
+    text-align: center;  
+    padding: 1%;
+}
+
+#Contraseña{
+    padding-left: 2%;
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+    margin: 4px ;
+    border: none;
+    background: #87878796;
+    color: #192240;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#Usuario{
+    padding-left: 2%;
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+    margin: 4px;
+    border: none;
+    background: #87878796;
+    color: #192240;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#btn_enviar{
+    height: 50px;
+    width: 200px;
+    background: #D9A404;
+    border: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 1%;
+    transition: ease-in-out 500ms;
+}
+
+#btn_enviar:hover{
+    transform: scale(1.1);
+}
+
+::placeholder{color:#192240;}
+
+

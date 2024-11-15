@@ -1,0 +1,984 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn{
+    width: 100%;
+    border: none;
+    color: #192240;
+    cursor: pointer;
+}
+#btn:hover{
+   background: #cfcfcf;
+    
+}
+
+/* Pagina de entrevistas aspirantes */
+.Encabezado {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formularioEntrevista label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#Archivo {
+    height: 30px;
+    color: rgb(0, 0, 0);
+    padding-top: 8px;
+    border: solid 1.5px;
+    padding: 5px;
+}
+
+.datoDeEntrevista input {
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;  
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #dbdbdb;
+    margin-top: 5px;
+
+}
+
+.datoDeEntrevista textarea {
+    outline: 0;
+    padding: 3px;
+    border: solid 1px black;
+    border-radius: 7px;
+    background: #ffffff;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    margin-top: 5px;
+}
+
+
+.BTN_Envia {
+    border-radius: 5px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #1a2740; 
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.719);
+    right: 692px;
+    margin-top: 80px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.BTN_Envia1{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1a2740; 
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.719);
+    margin-top: 25px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+/*Pagina Examen medico*/
+.formularioExamenmedico label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.datoDeExamenMedico input, select{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;  
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #dbdbdb;
+    margin-top: 5px;
+}
+
+#examenAprobo  {
+    width: 20px;
+    border: none;
+    box-shadow: none;
+    margin-left: 5px;
+}
+#examenNoAprobo{
+    width: 20px;
+    border: none;
+    box-shadow: none;
+    margin-left: 5px;
+}
+#si{
+    position: relative;
+    display: inline;
+    bottom: 10px;
+    margin-left: 5px; 
+}
+
+
+.datoDeExamenMedico textarea {
+    outline: 0;
+    border: solid 1px black;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #192240;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    margin-top: 5px;
+}
+
+/*Pagina baja empleado*/
+.formularioBaja label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.datosDeBaja input {
+    text-align: justify;
+    background: #ffffff;
+    width: 500px;
+    height: 30px;
+    border-radius: 7px;
+    outline: 0;
+    border: solid 1px black;
+    padding-left: 3%;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #192240;
+}
+
+.datosDeBaja textarea {
+    padding-left: 5px;
+    outline: 0;
+    border: solid 1px black;
+    border-radius: 7px;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #ffffff;
+    color: #192240;
+}
+
+.radioInputs {
+    display: inline-block;
+    color: #192240;
+    width: 500px;
+    border: 0;
+    
+}
+
+.radioInputs label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.BTN_ContinuarBaja {
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    color: #D9A404;
+    background: crimson;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    transition: 700ms;
+}
+
+.BTN_ContinuarBaja:hover {
+    color: black;
+    background: orangered;
+    width: 33%;
+    height: 37px;
+    transition: 700ms;
+}
+
+/* BTN_CancelarBaja */
+
+.BTN_cancelarBaja {
+    margin: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    color: black;
+    background: cornflowerblue;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+    transition: 700ms;
+}
+
+.BTN_cancelarBaja:hover {
+    color: black;
+    background: #10e7a7;
+    width: 33%;
+    height: 37px;
+    transition: 700ms;
+}
+
+/* Pagina Solicitar Vacante */
+.formularioSolicitud label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.datoDeSolicitud input, select{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;  
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #dbdbdb;
+    margin-top: 5px;
+}
+
+.datoDeSolicitud textarea {
+    outline: 0;
+    border: solid 1px black;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #192240;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    margin-top: 5.5px;
+}
+
+.BTN_Solicitar {
+    border-radius: 5px;
+    position: static;
+    cursor: pointer;
+    background-color: #1a2740;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.719);
+    /* left: 200px; */
+    /* bottom: 180px; */
+    margin-top: 11px;
+    margin-left: 200px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1000ms ease-in;
+}
+.BTN_SolicitarVacante{
+    border-radius: 5px;
+    position: static;
+    cursor: pointer;
+    background-color: #1a2740;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.719);
+    /* left: 200px; */
+    /* bottom: 180px; */
+    margin-top: 92px;
+    margin-left: 751px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1000ms ease-in;
+}
+
+.BTN_Solicitar:hover {
+    background: green;
+    transform: scale(1.1);
+}
+
+/* Pagina carga de archivos  */
+
+.radioInputs label {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.radioInputs {
+    display: inline-block;
+    color: #192240;
+    width: 500px;
+    
+}
+
+/* pagina para regustrar nuevos aspirantes  */
+#Titulo{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 182px;
+    
+   
+}
+#registraraspirantes label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+#registraraspirantes input, select{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;  
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #ffffff;
+    margin-top: 5px;
+}
+/* para la pagina de altaEmpleado*/
+#altaEmpleado label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+#altaEmpleado input, select{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;  
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #dbdbdb;
+    margin-top: 5px;
+}
+.BTNguardar{
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    color: azure;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.719);
+    margin-left: 750px;
+    top: 60px;
+}
+::placeholder{
+    padding-left: 5px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.63);
+}
+.col-1{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 50%;
+}
+.col-2{
+    position: relative;
+    margin-left: 750px;
+    top: 40px;
+    width: 50%;
+    
+}
+/* pagina de subir Documentos de aspirante */
+.informacion{
+    margin-left: 200px;
+}
+.informacion input{   
+    border: 1.5px solid black;
+    padding-left: 5px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;  
+    border: none ;  
+    background-color: rgb(221, 220, 220);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.documentos{
+    color: rgb(0, 0, 0);
+}
+.colDocumento{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 33%;
+}
+.colArchivo{
+    position: relative;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 10px;
+    width: 33%;
+}
+.colpresento{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: 10px;
+    width: 33%;
+}
+table{
+    
+    position: static;
+    background: rgb(98, 98, 98);
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 10px 5px 0.5px rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+table{
+    position: static;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 94%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 10px 5px 0.5px rgba(0, 0, 0, 0.596);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+thead {
+    border: none;
+    background-color: rgb(110, 110, 110);
+    height: 40px;
+
+}
+tbody{
+    background-color: rgb(54, 54, 54);
+    cursor: pointer text;
+}
+thead:hover{
+    background-color: rgb(148, 148, 148);
+}
+tbody tr:hover{
+    background-color: rgb(74, 74, 74);
+}
+td{
+    text-align: center;
+    height: 40px;
+}
+#Aceptarboton{
+    border-radius: 3px;
+    background: rgb(60, 255, 1);
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Aceptarboton:hover{
+    background: rgb(0, 164, 14);
+}
+#SubirArchivo{
+    border-radius: 3px;
+    background: rgb(179, 179, 179);
+    cursor: pointer;
+    width: 70px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#entrevistaBoton{
+    border-radius: 5px;
+    background: rgb(155, 172, 255);
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#examenMedicoBoton{
+    border-radius: 3px;
+    background: rgb(251, 251, 251);
+    cursor: pointer;
+    border:  1px black ;
+    width: 70px;
+    font-size: xx-small;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Historialboton{
+    border-radius: 5px;
+    background: rgb(145, 145, 145);
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#entrevistaBoton:hover{
+    background: rgb(36, 72, 247);
+}
+#bajaBotonEmpleado{
+    border-radius: 5px;
+    color: rgb(248, 248, 248);
+    background: rgb(103, 103, 138);
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Boton de buscar */
+
+.buscar{
+    text-align: right;
+}
+.buscar input{
+    border: #1a2740 solid 2px;
+    border: 1.5px solid black;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    padding-left: 5px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;  
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 58px;
+  
+}
+#BTNuevoAspirante{
+    margin-left: 30px;
+    text-align: center; 
+    background-color: #1a2740; 
+    border-radius: 10px;
+    cursor: pointer;
+    color: azure;
+    border: none;
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 5px 5px 0.5px rgba(0, 0, 0, 0.596);
+}
+.BTNuevoAspirante:hover{
+    background-color: #1a2740d6; 
+}
+
+/* Tablas de historial */
+
+#informacion{
+    color: rgb(0, 0, 0);
+    margin-left: 185px;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#informacion input{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;  
+    background-color: rgba(255, 255, 255, 0.765);
+    margin-top: 20px;
+    margin-right: 50px;
+    color: black;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BTN_Historial_Aspirante{
+    margin-top: 10px;
+    margin-left: 1030px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 30px; 
+    text-align: center; 
+    background-color: #1a2740; 
+    border-radius: 5px;
+    cursor: pointer;
+    color: azure;
+    border: none;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.511);
+}
+/* Tabla de entrevistas */
+
+
+.contenedorTablaEntrevista{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin: bottom 10px; 
+    padding-top: 20px; 
+}
+.BTNuevaEntrevista{
+    margin-top: 10px;
+    margin-left: 1030px;
+    margin-bottom: 10px;
+    width: 120px;
+    height: 30px; 
+    text-align: center; 
+    background-color: #1a2740; 
+    border-radius: 5px;
+    cursor: pointer;
+    color: azure;
+    border: none;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.511);
+}
+#tablaEntrevista{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;  
+    margin-bottom: 60px;     
+    
+}
+#TituloEntrevistas{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+.tdComentarios{
+    width: 50%;
+}
+
+
+/* Tabla de Examenes Medicos  */
+
+.ContenedorTablaExamenMedico{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin: bottom 10px;  
+    padding-top: 20px; 
+}
+.BTNexamenMedico{
+    margin-top: 10px;
+    margin-left: 1030px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 30px; 
+    text-align: center; 
+    background-color: #1a2740; 
+    border-radius: 5px;
+    cursor: pointer;
+    color: azure;
+    border: none;
+
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.511);
+}
+#tablaExamenMedico{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;  
+    margin-bottom: 60px;  
+}
+#TituloExamenMedico{
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+.tdComentarios{
+    width: 50%;
+}
+
+
+/* Tabla de Documentos */
+.contenedorDocumentos{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin: bottom 10px;  
+    padding-top: 20px; 
+}
+
+#tablaDocumentos{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;  
+    margin-bottom: 60px; 
+}
+#tituloTablaDocumentos{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 185px;
+}
+
+.BTNDocumentos{
+    margin-top: 10px;
+    margin-left: 1030px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 30px; 
+    text-align: center; 
+    background-color: #1a2740; 
+    border-radius: 5px;
+    cursor: pointer;
+    color: azure;
+    border: none;
+
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.511);
+}
+.coltablas{
+    margin-top: 200px;
+    margin-top: 50px;
+
+}
+/* Tablas de Control de vacantes */
+
+#tablaVacantes{
+     margin-top: 20px;
+}
+
+/* Subir Archivos */ 
+.formularioSubirDocs label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.SubirArchiText {
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;  
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    margin-top: 5px;
+}
+.radioInputsAr {
+    display: inline-block;
+    color: #192240;
+    width: 500px;
+    border: none;
+    
+}
+
+.radioInputAr label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.BTN_Enviar{
+    font-size: medium;
+    width: 30%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    background-color: darkcyan;
+    transition: 500ms ease-in-out;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+}
+
+.BTN_Enviar:hover{
+    background-color: rgb(0, 167, 167);
+    transform: scale(1.1);
+    box-shadow: -1px 10px 15px -1px rgba(0, 0, 0, 0.537);
+    color: black;
+    font-weight: bolder;
+}
+
+/* pagina de Nuevos Usuarios */
+
+.nuevoUsuarioformulario input{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #ffffff;
+    margin-top: 5px;
+}
+
+.nuevoUsuarioformulario label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* pagina de nuevas herramentas */
+
+.formularioNuevaHerramienta input{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #ffffff;
+    margin-top: 5px;
+}
+.formularioNuevaHerramienta label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+.formularioNuevaHerramienta textarea {
+    outline: 0;
+    border: solid 1px black;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #192240;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    margin-top: 5px;
+}
+
+/*! Paginas de Historial */
+.BTN_Desacargar{
+    height: 20%;
+    width: 30%;
+    color: white;
+    background:rgb(165, 165, 165);
+    border: none;
+    border-radius: 5%;
+    padding: 4px;
+    margin: 2px;
+    transition: ease-in-out 500ms;
+}
+.BTN_Desacargar:hover{
+    transform: scale(1.2);
+    background: rgb(9, 247, 136);
+}
+
+
+/* pagina de asiganar Documentos */
+.formularioAsiganacionHerramienta input{
+    border: solid 1.5px black;
+    padding-left: 5px;
+    width: 500px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0.5px 2px 2.5px 0.5px rgba(0, 0, 0, 0.537);
+    background: #ffffff;
+    margin-top: 5px;
+}
+.formularioAsiganacionHerramienta label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.BTN_asiganar{
+    border-radius: 5px;
+    margin-left: -300px;
+    position: relative;
+    cursor: pointer;
+    padding: 7px;
+    top: 200px;
+    background: #192240;
+    color: aliceblue;
+    border: none;
+    transition: ease-in-out 500ms;
+    font-weight: bold;
+}
+
+.BTN_asiganar:hover{
+    transform: scale(1.1);
+}
+/* pagina de Nuevos usuarios*/
+
+.mensaje{
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.568);
+    border: black 2px solid;
+    width: 90%;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+/* pagina de asiganra herramioenta */
+
+.equipo{
+    text-align: justify;
+    padding-left: 5px;
+}
+/* pagina de emigrar de empresa */
+
+.BTN_MigrarEmpresa{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1a2740;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.719);
+    /* left: 200px; */
+    /* bottom: 180px; */
+    margin-top: 250px;
+    margin-left: 200px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 1000ms ease-in;
+}
+.BTN_MigrarEmpresa:hover{
+    background-color: #202a3cd6;
+}
